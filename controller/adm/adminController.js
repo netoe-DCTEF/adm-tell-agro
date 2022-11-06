@@ -12,8 +12,9 @@ class Get{
     }
 
     deleta(req,res){
-        
+        res.render('adm/del.ejs');
     }
+    
 }
 
 class Post{
